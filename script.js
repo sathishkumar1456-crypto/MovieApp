@@ -20,8 +20,9 @@ function displayMovies(data) {
                 <div class="card h-100 shadow-sm">
                                         <img class= card-img-top src="${movie.Image} "></img>
                     <div class="card-body d-flex">
-                        <h5 class="card-title">${movie.title}</h5>
-                        <p class="card-text text-muted">${movie.genre} - ${movie.year}</p>
+                        <h5 class="card-title">${movie.title}</h5> <br>
+                        <p class="card-text text-muted">${movie.genre} . ${movie.year}</p><br>
+                        <button class="btn btn-danger w-10">Book Your Ticket Now</button>
                     </div>
                 </div>
             </div>
